@@ -15,17 +15,15 @@
 
 
 
-body{
-    border: none;
-    padding: 0%;
-    margin: 5%;
-}
 
 .NavButtons{
 
     font-size: 16px;
     display: flex;
     flex-direction: row;
+    color: white;
+    text-align: center;
+    float: right;
     
 
 
@@ -58,6 +56,10 @@ body{
     background-color: #1F2937;
     padding: 0%;
     color: white;
+    object-fit: fill;
+    display: flex;
+    
+    
 
 }
 
@@ -70,19 +72,18 @@ body{
 }
 
 .photos{
+    content: "";
+    display: table;
+    clear: both;
     display: flex;
-    flex-direction: row;
-    width: 15%;
-    height: 15%;
-    max-width: 10%;
-    max-height: 10%;
-    
 
 
 }
 
 .Quotes{
     background-color: #E5E7EB;
+    border: 0%;
+    height: 40%;
 
 }
 
@@ -98,4 +99,24 @@ body{
     padding: 20px;
     width: 70%px;
     height: 150px;
+}
+
+.Abe{
+    text-align: right;
+}
+
+.Shuichi{
+    float: right;
+    
+
+}
+
+.column{
+    float: left;
+    width: 22.6%;
+    padding: 50px;
+}
+
+{
+    box-sizing: border-box;
 }
