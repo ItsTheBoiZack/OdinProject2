@@ -10,20 +10,31 @@
 }
 
 body{
-    border: 0%;
+    border: none;
     padding: 0%;
     margin: 0%;
 }
 
 .NavButtons{
-    font-size: 18px;
+
+    font-size: 16px;
     
 
 }
 
-.signupbuttons{
+.signupbutton{
     background-color: #3882F6;
-    color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+ 
     
 
 
@@ -34,3 +45,22 @@ body{
     padding: 0%;
 
 }
+
+.infotext{
+    text-align: center;
+    flex: ;
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    height: 10%;
+    border: 5px solid #555;
+
+
+}
+
